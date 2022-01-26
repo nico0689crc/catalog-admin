@@ -1,0 +1,19 @@
+.link {
+  font-size: 1rem;
+}
+
+.link--primary {
+  color: var(--primary-color);
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.link--small {
+  font-size: 0.8em;
+}
+
+.link--large {
+  font-size: 1.2em;
+}

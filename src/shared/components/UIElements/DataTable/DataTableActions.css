@@ -1,0 +1,24 @@
+.data-table__button {
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.data-table__button:hover {
+  transform: scale(1.2);
+}
+
+.data-table__button svg {
+  font-size: 1rem;
+}
+
+.action-view {
+  color: green;
+}
+.action-edit {
+  color: rgb(231 159 26);
+}
+.action-delete {
+  color: rgb(199 28 28);
+}

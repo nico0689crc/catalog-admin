@@ -1,0 +1,12 @@
+.data-table__options {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 1em 0;
+}
+
+.data-table__label {
+  margin-left: 2em;
+  margin-right: 0.5em;
+}

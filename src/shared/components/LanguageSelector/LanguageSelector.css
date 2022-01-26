@@ -1,0 +1,13 @@
+.language-selector {
+  display: flex;
+}
+
+.language-selector__button {
+  margin-left: 5px;
+  padding: 0.4em;
+  border: 1px solid transparent;
+}
+
+.language-selector__button--no-selected {
+  background-color: rgba(0, 0, 0, 0.2);
+}

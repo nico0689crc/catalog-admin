@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+
+  background-color: rgb(243 244 246);
+  overflow: auto;
+}
+
+@media (min-width: 800px) {
+  .main {
+    padding: 2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    padding: 2em;
+  }
+}

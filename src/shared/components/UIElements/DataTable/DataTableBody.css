@@ -1,0 +1,27 @@
+.data-table__body {
+}
+
+.data-table__body tr:nth-of-type(odd) {
+  background: rgb(235 235 235);
+}
+
+.data-table__body tr:last-child td:first-child {
+  border-radius: 0 0 0 4px;
+}
+
+.data-table__body tr:last-child td:last-child {
+  border-radius: 0 0 4px 0;
+}
+
+.data-table__body tr td {
+  padding: 8px;
+  border-top: 1px solid #dddddd;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.data-table__body tr td + td {
+  border-left: 1px solid #dddddd;
+}

@@ -1,0 +1,252 @@
+{
+  "login_form": {
+    "content": {
+      "input_email_label": "Correo electrónico",
+      "input_password_label": "Contraseña",
+      "link_forgot_pass_text": "¿Has olvidado tu contraseña?",
+      "button_login": "Iniciar sesión"
+    },
+    "dividers": {
+      "first": "Iniciar sesión",
+      "second": "También"
+    },
+    "footer": {
+      "span": "¿Todavía no tienes una cuenta?",
+      "register_button": "Registrate"
+    }
+  },
+  "register_form": {
+    "content": {
+      "input_name_label": "Nombre de Usuario",
+      "input_email_label": "Correo electrónico",
+      "input_password_label": "Contraseña",
+      "button_register": "Registrarme"
+    },
+    "dividers": {
+      "first": "Registro de usuario",
+      "second": "También"
+    },
+    "footer": {
+      "span": "¿Ya tienes una cuenta?",
+      "login_button": "Iniciar sesión"
+    },
+    "notifications": {
+      "success": {
+        "title": "Su cuenta ha sido creada satisfactoriamente.",
+        "description": "Le hemos enviado un correo electrónico de bienvenida que contiene un enlace para activar su cuenta. Activa tu cuenta para poder iniciar sesión."
+      }
+    }
+  },
+  "reset_password_form": {
+    "content": {
+      "input_email_label": "Correo electronico",
+      "input_password_label": "Contraseña",
+      "button_reset_password": "Recuperar contraseña"
+    },
+    "dividers": {
+      "first": "Recuperar contraseña",
+      "second": "También"
+    },
+    "footer": {
+      "span": "¿Has recordado tu contraseña?",
+      "login_button": "Iniciar sesión"
+    },
+    "notifications": {
+      "success_get": {
+        "title": "Solicitud generada correctamente.",
+        "description": "Su solicitud para restablecer su contraseña ha sido procesada con éxito. Por favor revise su correo electrónico y siga las instrucciones para completar el proceso."
+      },
+      "success_post": {
+        "title": "Contraseña actualizada con éxito.",
+        "description": "Por favor utilice su nueva contraseña desde el formulario de inicio de sesión."
+      }
+    }
+  },
+  "products": {
+    "data_table_columns": {
+      "name": "Nombre",
+      "description": "Descripción",
+      "quantity": "Cantidad",
+      "price": "Precio",
+      "actions": "Acciones"
+    },
+    "product_new_button": "Nuevo producto"
+  },
+  "product_create_edit_form": {
+    "create_modal_header_title": "Crear producto",
+    "edit_modal_header_title": "Editar producto",
+    "input_name_label": "Nombre",
+    "input_quantity_label": "Cantidad",
+    "input_price_label": "Precio",
+    "input_description_label": "Descripción",
+    "select_catagories_label": "Categorias",
+    "select_tags_label": "Etiquetas",
+    "alert_success_title": "Perfecto",
+    "alert_success_description": "El producto y sus detalles han sido almacenados correctamente."
+  },
+  "product_delete_form": {
+    "modal_header_title": "Eliminar producto",
+    "message": "¿Está seguro de que desea eliminar el producto ",
+    "alert_success_title": "Eliminado",
+    "alert_success_description": "El producto seleccionado ha sido eliminado correctamente."
+  },
+  "product_view_form": {
+    "modal_header_title": "Detalles del producto",
+    "product_id": "ID de Producto",
+    "name_label": "Nombre",
+    "description_label": "Descripción",
+    "quantity_label": "Cantidad",
+    "price_label": "Precio",
+    "category_label": "Categorias",
+    "creator_label": "Creador",
+    "tags_label": "Etiquetas"
+  },
+  "categories": {
+    "data_table_columns": {
+      "icon": "Icono",
+      "name": "Nombre",
+      "description": "Descripción",
+      "products_count": "N. Productos",
+      "actions": "Acciones"
+    },
+    "category_new_button": "Nueva categoria"
+  },
+  "category_create_edit_form": {
+    "create_modal_header_title": "Crear categoria",
+    "edit_modal_header_title": "Editar categoria",
+    "input_name_label": "Nombre",
+    "select_icon_label": "Icono",
+    "input_description_label": "Descripción",
+    "alert_success_title": "Perfecto",
+    "alert_success_description": "La categoria y sus detalles han sido almacenados correctamente."
+  },
+  "category_delete_form": {
+    "modal_header_title": "Eliminar categoria",
+    "message": "¿Está seguro de que desea eliminar esta categoria ",
+    "alert_success_title": "Eliminado",
+    "alert_success_description": "La categoria seleccionada ha sido eliminada correctamente."
+  },
+  "category_view_form": {
+    "modal_header_title": "Detalles de la categoria",
+    "category_id": "ID de Categoria",
+    "icon_label": "Icono",
+    "name_label": "Nombre",
+    "description_label": "Descripción",
+    "creator_label": "Creador",
+    "products_count_label": "N. Productos"
+  },
+
+  "tags": {
+    "data_table_columns": {
+      "name": "Nombre",
+      "description": "Descripción",
+      "products_count": "N. Productos",
+      "actions": "Acciones"
+    },
+    "tag_new_button": "Nueva etiqueta"
+  },
+  "tag_create_edit_form": {
+    "create_modal_header_title": "Crear etiqueta",
+    "edit_modal_header_title": "Editar etiqueta",
+    "input_name_label": "Nombre",
+    "alert_success_title": "Perfecto",
+    "alert_success_description": "La etiqueta y sus detalles han sido almacenados correctamente."
+  },
+  "tag_delete_form": {
+    "modal_header_title": "Eliminar etiqueta",
+    "message": "¿Está seguro de que desea eliminar esta etiqueta ",
+    "alert_success_title": "Eliminado",
+    "alert_success_description": "La etiqueta seleccionada ha sido eliminada correctamente."
+  },
+  "tag_view_form": {
+    "modal_header_title": "Detalles de la etiqueta",
+    "tag_id": "ID de etiqueta",
+    "name_label": "Nombre",
+    "creator_label": "Creador",
+    "products_count_label": "N. Productos"
+  },
+
+  "users": {
+    "data_table_columns": {
+      "avatar": "Foto",
+      "name": "Nombre",
+      "email": "Correo E.",
+      "status": "Estado",
+      "role": "Rol",
+      "products_count": "N. Productos",
+      "actions": "Acciones"
+    },
+    "user_new_button": "Nuevo usuario"
+  },
+  "user_create_edit_form": {
+    "create_modal_header_title": "Crear usuario",
+    "edit_modal_header_title": "Editar usuario",
+    "input_name_label": "Nombre",
+    "input_email_label": "Correo E.",
+    "input_password_label": "Contraseña",
+    "select_role_label": "Rol",
+    "select_status_label": "Estado",
+    "alert_success_title": "Perfecto",
+    "alert_success_description": "El usuario y sus detalles han sido almacenados correctamente."
+  },
+  "user_delete_form": {
+    "modal_header_title": "Eliminar usuario",
+    "message": "¿Está seguro de que desea eliminar este usuario ",
+    "alert_success_title": "Eliminado",
+    "alert_success_description": "El usuario seleccionada ha sido eliminada correctamente."
+  },
+  "user_view_form": {
+    "modal_header_title": "Detalles de usuario",
+    "user_id": "ID de usuario",
+    "name_label": "Nombre",
+    "email_label": "Correo E.",
+    "role_label": "Rol",
+    "status_label": "Estado",
+    "products_count_label": "N. Products"
+  },
+
+  "header": {
+    "user_actions": {
+      "profile": "Perfil",
+      "logout": "Cerrar sesión"
+    }
+  },
+  "content": {
+    "sidebar": {
+      "home": "Inicio",
+      "products": "Productos",
+      "categories": "Categorias",
+      "tags": "Etiquetas",
+      "users": "Usuarios",
+      "settings": "Configuraciones"
+    }
+  },
+  "validations": {
+    "field_required": "Este campo es obligatorio.",
+    "email_format": "Este campo requiere un formato de correo electrónico.",
+    "min_length_4": "Este campo debe tener 4 caracteres.",
+    "min_length_6": "Este campo debe tener 6 caracteres.",
+    "min_length_10": "Este campo debe tener 10 caracteres.",
+    "min_length_30": "Este campo debe tener 30 caracteres.",
+    "numeric_field": "El valor de este campo deber ser  numérico",
+    "positive_field": "Este valor de este campo debe ser un número positivo.",
+    "password_format": "La contraseña debe tener un mínimo de ocho caracteres, al menos una letra, un número y un carácter especial."
+  },
+  "common": {
+    "button_loading_text": "Cargando...",
+    "select_placeholder": "Seleccionar...",
+    "button_close_modal": "Cerrar",
+    "button_cancel_modal": "Cancelar",
+    "button_delete_modal": "Eliminar",
+    "button_create_modal": "Crear",
+    "button_edit_modal": "Actualizar",
+    "image_uploader_file_button": "Seleccionar imagenes",
+    "image_uploader_empty_files": "Ninguna imagen se ha seleccionado.",
+    "image_uploader_divider_new_images": "Nuevas imagenes",
+    "image_uploader_divider_current_images": "Imagenes actuales",
+    "data_table": {
+      "page_size": "Tamaño",
+      "loading": "Cargando..."
+    }
+  }
+}

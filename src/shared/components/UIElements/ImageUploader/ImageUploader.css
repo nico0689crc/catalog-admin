@@ -1,0 +1,54 @@
+.image-uploader {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-uploader__file-input {
+  display: none;
+}
+
+.image-uploader__header {
+}
+
+.image-uploader__main {
+  padding: 1em 0;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.main__empty-images {
+  text-align: center;
+  padding: 1em;
+}
+
+.main__images-previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em;
+}
+
+.images-previews__image-container {
+  display: flex;
+
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image-container__delete-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-40%) translateX(50%);
+  font-size: 1.3rem;
+  color: rgb(199 28 28);
+  cursor: pointer;
+}
+
+.image-container__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

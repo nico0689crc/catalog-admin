@@ -1,0 +1,26 @@
+.auth-panel {
+  display: flex;
+  position: relative;
+  height: 100vh;
+}
+
+.auth-panel .container {
+  flex-direction: column;
+  margin: auto;
+  width: 85%;
+  max-width: 28.125em;
+}
+
+.auth-panel__header {
+  text-align: center;
+}
+
+.auth-panel__footer {
+  text-align: center;
+}
+
+.language-selector-float {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}

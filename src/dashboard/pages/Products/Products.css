@@ -1,0 +1,11 @@
+.products-container {
+  width: 100%;
+}
+
+.modal-delete-size {
+  height: initial;
+}
+
+.modal__header--title {
+  width: 100%;
+}

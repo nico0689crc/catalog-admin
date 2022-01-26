@@ -1,0 +1,105 @@
+.divider {
+  font-size: 0.9rem;
+  line-height: 1.5715;
+}
+
+.divider--small {
+  margin: 1em 0;
+}
+
+.divider--medium {
+  margin: 2em 0;
+}
+
+.divider--large {
+  margin: 3em 0;
+}
+
+.divider--horizontal {
+  display: flex;
+  clear: both;
+  width: 100%;
+  min-width: 100%;
+}
+
+.divider--vertical {
+}
+
+.divider--with-text.divider--horizontal {
+  border-top: 0;
+}
+
+.divider--with-text.divider--left,
+.divider--with-text.divider--center,
+.divider--with-text.divider--right {
+  display: flex;
+}
+
+.divider--with-text.divider--left {
+  justify-content: start;
+}
+.divider--with-text.divider--center {
+  justify-content: center;
+}
+.divider--with-text.divider--right {
+  justify-content: end;
+}
+
+.divider__text {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(107, 114, 128);
+  padding: 0 1rem;
+  white-space: nowrap;
+}
+
+.divider,
+.divider--with-text.divider--left:before,
+.divider--with-text.divider--left:after,
+.divider--with-text.divider--center:before,
+.divider--with-text.divider--center:after,
+.divider--with-text.divider--right:before,
+.divider--with-text.divider--right:after {
+  border-top: 1px solid rgb(0 0 0 / 20%);
+}
+
+.divider--with-text.divider--left:before,
+.divider--with-text.divider--left:after,
+.divider--with-text.divider--center:before,
+.divider--with-text.divider--center:after,
+.divider--with-text.divider--right:before,
+.divider--with-text.divider--right:after {
+  position: relative;
+  top: 50%;
+  width: 50%;
+  border-bottom: 0;
+  transform: translateY(50%);
+  content: "";
+}
+
+.divider--with-text.divider--left:before {
+  top: 50%;
+  width: 5%;
+}
+
+.divider--with-text.divider--left:after {
+  top: 50%;
+  width: 95%;
+}
+
+.divider--with-text.divider--center:before,
+.divider--with-text.divider--center:after {
+  top: 50%;
+  width: 50%;
+}
+
+.divider--with-text.divider--right:before {
+  top: 50%;
+  width: 95%;
+}
+
+.divider--with-text.divider--right:after {
+  top: 50%;
+  width: 5%;
+}

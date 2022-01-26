@@ -1,0 +1,49 @@
+.select-form-control {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.select-form-control label,
+.select-form-control select {
+  display: block;
+  color: rgb(75, 85, 99);
+  font-size: 0.875rem;
+}
+
+.select-form-control label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.react-select__single-value {
+  color: rgb(75, 85, 99);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25em;
+  padding: 0.85em 0;
+}
+
+.react-select__option {
+  font-size: 0.5rem;
+}
+
+.select-form-control select:focus {
+  outline: none;
+  border-color: rgb(0, 159, 127);
+}
+
+.select-form-control--invalid .react-select-container div {
+  border-color: red;
+  background: #ffd1d1;
+  outline: none;
+}
+
+.select-form-control--invalid label,
+.select-form-control--invalid p {
+  color: red;
+}
+
+.select-form-control--invalid p {
+  margin: 0.5em 0;
+  font-size: 0.85rem;
+}

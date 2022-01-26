@@ -1,0 +1,85 @@
+.input-form-control {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.input-form-control label,
+.input-form-control input {
+  display: block;
+  color: rgb(75, 85, 99);
+  font-size: 0.875rem;
+}
+
+.input-form-control label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.input-form-control input,
+.input-form-control textarea {
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.25em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: rgb(255, 255, 255);
+}
+
+.input-form-control input {
+  height: 3.5em;
+  padding: 0 0.75em;
+}
+
+.input-form-control textarea {
+  height: 10em;
+  padding: 0.75em;
+}
+
+.input-form-control input:focus,
+.input-form-control textarea:focus {
+  outline: none;
+  border-color: rgb(0, 159, 127);
+}
+
+.input-form-control--invalid label,
+.input-form-control--invalid p {
+  color: red;
+}
+
+.input-form-control--invalid p {
+  margin: 0.5em 0;
+  font-size: 0.85rem;
+}
+
+.input-form-control--invalid input,
+.input-form-control--invalid input:focus,
+.input-form-control--invalid textarea,
+.input-form-control--invalid textarea:focus {
+  border-color: red;
+  background: #ffd1d1;
+}
+
+.input-form-control .input-form-control__label-with-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-form-control .input-form-control__input-password {
+  display: flex;
+  position: relative;
+}
+
+.input-form-control__input-password input {
+  padding-right: 3em;
+}
+
+.input-password__show-password-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  right: 0.5em;
+  transform: translatey(-50%);
+  cursor: pointer;
+}

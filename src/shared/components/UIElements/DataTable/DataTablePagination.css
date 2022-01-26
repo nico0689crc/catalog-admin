@@ -1,0 +1,9 @@
+.data-table__pagination {
+  display: flex;
+  justify-content: center;
+  margin: 1.5em;
+}
+
+.data-table__pagination button {
+  margin: 0.3em;
+}

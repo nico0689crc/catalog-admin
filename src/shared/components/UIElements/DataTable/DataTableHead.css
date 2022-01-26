@@ -1,0 +1,22 @@
+.data-table__thead {
+  text-align: center;
+}
+
+.data-table__thead th:first-child {
+  border-radius: 0.5em 0 0 0;
+}
+
+.data-table__thead th:last-child {
+  border-radius: 0 0.5em 0 0;
+}
+
+.data-table__thead th {
+  padding: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.data-table__thead th + th {
+  border-left: 1px solid #dddddd;
+}

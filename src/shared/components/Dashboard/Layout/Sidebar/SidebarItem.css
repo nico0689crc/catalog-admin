@@ -1,0 +1,24 @@
+.siderbar-item:not(:first-child) {
+  margin-top: 1.5em;
+}
+
+.siderbar-item__link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: inherit;
+  transition: color 0.2s ease-in-out;
+}
+
+.siderbar-item__link:hover,
+.siderbar-item.active {
+  color: var(--primary-color);
+}
+
+.siderbar-item__link svg {
+  font-size: 1.7rem;
+}
+
+.sidebar-item__label {
+  margin-left: 0.5em;
+}

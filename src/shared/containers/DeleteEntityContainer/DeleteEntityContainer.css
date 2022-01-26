@@ -1,0 +1,17 @@
+.entity-delete {
+  padding: 0 1.5em 1.5em 1.5em;
+}
+
+.message-container {
+  margin-bottom: 3em;
+}
+
+.message_name {
+  font-weight: bolder;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 2em;
+}

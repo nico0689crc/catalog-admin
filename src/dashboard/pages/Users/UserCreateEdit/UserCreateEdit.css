@@ -1,0 +1,42 @@
+.entity-new {
+  width: 95vw;
+  max-width: 1200px;
+  padding: 0 2em 2em 2em;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon_container {
+  display: flex;
+  align-items: center;
+}
+.icon_container .icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.icon_container .icon svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icon_container .label {
+  margin-left: 1em;
+}
+
+@media (min-width: 1024px) {
+  .column {
+    width: 45%;
+  }
+
+  .full-witdh {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

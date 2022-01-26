@@ -1,0 +1,21 @@
+.entity-new {
+  width: 95vw;
+  max-width: 1200px;
+  padding: 0 2em 2em 2em;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .column {
+    width: 45%;
+  }
+
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
