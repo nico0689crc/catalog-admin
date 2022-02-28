@@ -39,11 +39,6 @@ const Header = props => {
               icon={<FaUserAlt />}
               dropdownItems={[
                 {
-                  label: t("header.user_actions.profile"),
-                  type: "router-link",
-                  to: "/profile",
-                },
-                {
                   label: t("header.user_actions.logout"),
                   type: "function-perform",
                   onClick: function () {

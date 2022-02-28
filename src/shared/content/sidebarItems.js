@@ -31,13 +31,6 @@ const sidebarItems = [
     entity: "users",
     permission_required: true,
   },
-  {
-    label: "content.sidebar.settings",
-    icon: <FiSettings />,
-    to: "/settings",
-    entity: "settings",
-    permission_required: false,
-  },
 ];
 
 export default sidebarItems;

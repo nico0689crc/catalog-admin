@@ -3,7 +3,7 @@
 }
 
 .link--primary {
-  color: var(--primary-color);
+  color: var(--color-accent);
 }
 
 .link:hover {
