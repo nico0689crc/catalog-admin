@@ -148,7 +148,7 @@ const ProductCreateEdit = ({ item, ...props }) => {
       setCategories(null);
       setTags(null);
     };
-  });
+  }, []);
 
   useEffect(() => {
     item && setCurrentImages(item.images);
